@@ -18,8 +18,8 @@ classifiers = [
 dynamic = ["version", "dependencies"]
 
 [project.urls]
-Homepage = ""
-Issues = ""
+Homepage = "https://github.com/jme45/cat_dog_classifiers"
+Issues = "https://github.com/jme45/cat_dog_classifiers/issues"
 
 [tool]
 

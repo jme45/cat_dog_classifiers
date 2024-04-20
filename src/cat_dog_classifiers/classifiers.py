@@ -1,9 +1,6 @@
 """
 Defines the classifiers for the dog/cat classification
 """
-# TODO: turn into a project. create: pyproject.toml, README.md, LICENSE.md
-# TODO: upload to github, so can install via pip install git+https://...
-# TODO: create git repo. compare to aircraft_classifiers
 from pathlib import Path
 from typing import Optional
 
