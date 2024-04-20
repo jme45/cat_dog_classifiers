@@ -25,6 +25,12 @@ class CatDogClassifier(tlvs_classifiers.TransferLearningVisionClassifier):
         :param load_classifier_pretrained_weights: whether to load classifier
         :param classifier_pretrained_weights_file: file for classifier data
         """
+        super().__init__(
+            model_type=model_type,
+            class_names=class_names,
+            load_classifier_pretrained_weights=load_classifier_pretrained_weights,
+            classifier_pretrained_weights_file=classifier_pretrained_weights_file,
+        )
         self.class_names = class_names
         # Define train and prediction transform. Unlike for aircraft classification,
         # we don't need a transform to crop the authorship information

@@ -4,3 +4,4 @@ torchmetrics
 pytest
 numpy
 transfer-learning-vision-classifiers
+pillow
